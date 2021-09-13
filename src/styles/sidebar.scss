@@ -1,0 +1,153 @@
+$sidebar-color: #2b333a;
+$bg-color: #edf3f4;
+$nav-color: #FFFFFF;
+$text-color1: #64696d;
+$text-color2: #6d7277;
+$color1: #58a9c4;
+$color2: #b8bdc1;
+$color3: #ededed;
+$color4: #84cae0;
+$color5: #f4c9b2;
+$color6: #757e87;
+
+.sidebar-main{
+    height: 0rem;
+    width: 0rem;
+    overflow: hidden;
+
+    .sidebar-main-cont{
+        .side-icons-one{
+
+            @media screen and (max-width: 1100px) {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
+            .side-icon1{
+                color: $color2;
+                padding: .85rem 0rem;
+                border-bottom: .08rem solid $text-color1;
+                i{
+                    font-size: 200%;
+                    text-align: center;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem .85rem;
+                    margin-top: .7rem;
+                    border-right: .08rem solid $text-color1;
+                    border-bottom: none;
+                }
+            }
+            .side-icon2{
+                color: $color6;
+                font-size: 1rem;
+                margin-top: .6rem;
+                padding: .8rem 0rem;
+                cursor: pointer;
+                &:hover{
+                    color: $color3;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem 2%;
+                    margin-top: 1.5rem;
+    
+                }
+            }
+            .side-icon3{
+                color: $color6;
+                font-size: 1rem;
+                padding: .8rem 0rem;
+                cursor: pointer;
+                &:hover{
+                    color: $color3;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem 2%;
+                    margin-top: 1.5rem;
+    
+                }
+            }
+        }
+
+        .side-icons-two{
+
+            @media screen and (max-width: 1100px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .side-icon1{
+                color: $color2;
+                padding: .85rem 0rem;
+                border-bottom: .08rem solid $text-color1;
+                i{
+                    font-size: 200%;
+                    text-align: center;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem .85rem;
+                    margin-top: .7rem;
+                    border-right: .08rem solid $text-color1;
+                    border-bottom: none;
+                }
+            }
+            .side-icon2{
+                color: $color6;
+                font-size: 1rem;
+                margin-top: .6rem;
+                padding: .8rem 0rem;
+                cursor: pointer;
+                &:hover{
+                    color: $color3;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem 2%;
+                    margin-top: 1.5rem;
+    
+                }
+            }
+            .side-icon3{
+                color: $color6;
+                font-size: 1rem;
+                padding: .8rem 0rem;
+                cursor: pointer;
+                &:hover{
+                    color: $color3;
+                }
+                @media screen and (max-width: 1100px) {
+                    display: flex;
+                    padding: 0rem 2%;
+                    margin-top: 1.5rem;
+                }
+            }
+        } 
+    }
+}
+
+.show-sidebar{
+
+    background-color: $sidebar-color;
+    width: 4%;
+    height: 85%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    @media screen and (max-width: 1100px) {
+        opacity: .9;
+        width: 90%;
+        height: 14%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-left: 5%;
+    }
+}

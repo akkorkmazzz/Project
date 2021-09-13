@@ -1,0 +1,188 @@
+$sidebar-color: #2b333a;
+$bg-color: #edf3f4;
+$nav-color: #FFFFFF;
+$text-color1: #64696d;
+$text-color2: #6d7277;
+$color1: #58a9c4;
+$color2: #b8bdc1;
+$color3: #ededed;
+$color4: #84cae0;
+$color5: #f4c9b2;
+$color6: #757e87;
+
+.navbar-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 1.8rem;
+    width: 100%;
+    position: fixed;
+    padding: 1rem 0rem;
+    display: flex;
+    background-color: $nav-color;
+    .sidebar-container{
+
+    }
+    .navbar-cont{
+        display: flex;
+        width: 100%;
+        .navbar-cont-main{
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            width: 93%;
+            margin-left: 5%;
+    
+            .icon-container1{
+    
+                .navbar-icon7{
+                    margin-top: .5rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                .fa-outdent{
+                    @media screen and (max-width: 1100px) {
+                        -webkit-transform: rotate(270deg);
+                        -moz-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                        -o-transform: rotate(270deg);
+                        transform: rotate(270deg);
+                    }
+                }
+                .fa-align-justify{
+                    @media screen and (max-width: 1100px) {
+                        -webkit-transform: rotate(270deg);
+                        -moz-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                        -o-transform: rotate(270deg);
+                        transform: rotate(270deg);
+                    }
+                }
+                
+            }
+            .icon-container2{
+                display: flex;
+                margin-right: 3rem;
+                @media screen and (max-width: 500px) {
+                    margin-right: 2rem;
+                }
+                @media screen and (max-width: 450px) {
+                    margin-right: 0rem;
+                }
+                .navbar-photo{
+                    height: 2rem;
+                    width: 3rem;
+                    border-radius: 50%;
+                    background-color: $color2;
+                    border: .09rem solid $color2;
+            
+                    h4{
+                        text-align: center;
+                        justify-content: center;
+                        margin-top: .4rem;
+                        color: $nav-color;
+                    }
+                }
+                .navbar-text{
+                    margin-top: .5rem;
+                    margin-left: .5rem;
+                    @media screen and (max-width: 450px) {
+                        margin-left: .3rem;
+                    }
+                    h5{
+                        color: $text-color1;
+                    }
+                }
+                .navbar-icon1{
+                    margin-top: .5rem;
+                    margin-left: .5rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                .navbar-icon2{
+                    margin-top: .5rem;
+                    margin-right: 1.7rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                    @media screen and (max-width: 450px) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (max-width: 350px) {
+                        margin-right: .7rem;
+                    }
+                }
+                .navbar-icon3{
+                    margin-top: .5rem;
+                    margin-right: 1.7rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                    @media screen and (max-width: 450px) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (max-width: 350px) {
+                        margin-right: .6rem;
+                    }
+                }
+                .navbar-icon4{
+                    margin-top: .5rem;
+                    margin-right: 1.7rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                    @media screen and (max-width: 450px) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (max-width: 350px) {
+                        margin-right: .6rem;
+                    }
+                }
+                .navbar-icon5{
+                    margin-top: .5rem;
+                    margin-right: 1.7rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                    @media screen and (max-width: 450px) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (max-width: 350px) {
+                        margin-right: .6rem;
+                    }
+                }
+                .navbar-icon6{
+                    margin-top: .5rem;
+                    margin-right: 1.7rem;
+                    cursor: pointer;
+                    color: $text-color1;
+                    &:hover{
+                        color: black;
+                    }
+                    @media screen and (max-width: 450px) {
+                        margin-right: 1rem;
+                    }
+                    @media screen and (max-width: 350px) {
+                        margin-right: .6rem;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    
+}
+

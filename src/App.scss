@@ -1,0 +1,36 @@
+@import './styles/sidebar.scss';
+@import './styles/navbar.scss';
+@import './styles/contents.scss';
+@import './styles/collapsible.scss';
+@import './styles/boxes.scss';
+
+$sidebar-color: #2b333a;
+$bg-color: #edf3f4;
+$nav-color: #FFFFFF;
+$text-color1: #64696d;
+$text-color2: #6d7277;
+$color1: #58a9c4;
+$color2: #b8bdc1;
+$color3: #ededed;
+$color4: #84cae0;
+$color5: #f4c9b2;
+$color6: #757e87;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Glory', sans-serif;
+}
+body::-webkit-scrollbar{
+  width: 13px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: $sidebar-color;
+  border-radius: 2px;
+}
+body::-webkit-scrollbar-track{
+  background-color: $color2;
+}
+body{
+  background-color: $bg-color;
+}

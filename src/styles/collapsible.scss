@@ -1,0 +1,143 @@
+$bg-color: #edf3f4;
+$nav-color: #FFFFFF;
+$text-color1: #64696d;
+$text-color2: #6d7277;
+$color1: #58a9c4;
+$color2: #b8bdc1;
+
+.collapsible-parent{
+    height: 0rem;
+    overflow: hidden;
+    .collapsible{
+        
+        border: .1rem solid #95c9b7;
+        border-radius: .1rem;
+        width: 97.2%;
+        margin-left: .7rem;
+        
+        .collapsible-cont1{
+            padding: .5rem .7rem;
+            display: flex;
+            @media screen and (max-width: 900px) {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .select1{
+                margin-right: 2rem;
+                width: 15.5%;
+                @media screen and (max-width: 900px) {
+                    width: 50%;
+                }
+                @media screen and (max-width: 715px) {
+                    width: 60%;
+                }
+                .select1-cont{
+                    display: flex;
+                    flex-direction: column;
+                    @media screen and (max-width: 900px) {
+                        margin-bottom: .4rem;
+                    }
+                    
+                    span{
+                        margin-bottom: .4rem;
+                        font-size: .9rem;
+                        color: $text-color1;
+                        font-weight: 600;
+                    }
+                    .selectpicker1{
+                        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                        height: 2rem;
+                        border-radius: .2rem;
+                        border: .05rem solid $color2;
+                        option{
+                            color: $text-color1;
+                        }
+                    }
+                }
+
+               
+            }
+        }
+        .collapsible-cont2{
+            padding: .5rem .7rem;
+            margin-top: .5rem;
+            background-color: $bg-color;
+            .col-cont2{
+                display: flex;
+                justify-content: flex-end;
+                .col-btn1{
+                    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                    height: 2rem;
+                    width: 3.2rem;
+                    margin-right: .5rem;
+                    background-color: $nav-color;
+                    border-radius: .2rem;
+                    color: $color1;
+                    font-weight: 600;
+                    border: .1rem solid $color1;
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $color1;
+                        transition: all .5s ease-in-out;
+                        color: $nav-color;
+                    }
+                    span{
+                        font-size: .9rem;
+                        padding: 1rem .5rem;
+                    }
+                }
+                .col-btn2{
+                    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                    height: 2rem;
+                    width: 3.2rem;
+                    margin-right: .5rem;
+                    background-color: $nav-color;
+                    border-radius: .2rem;
+                    color: $text-color2;
+                    font-weight: 600;
+                    border: .01rem solid $text-color2;
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $text-color2;
+                        color: $nav-color;
+                        transition: all .5s ease-in-out;
+                    }
+                    span{
+                        font-size: .9rem;
+                        padding: 1rem .5rem;
+                    }
+                }
+                .col-btn3{
+                    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                    height: 2rem;
+                    width: 1.9rem;
+                    background-color: $nav-color;
+                    border-radius: .2rem;
+                    border: .01rem solid #e24147;
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: #e24147;
+                        transition: all .4s ease-in-out;
+                    i{
+                        color: $nav-color;
+                        transition: all .4s ease-in-out;
+                    }
+                    }
+                    i{
+                        color: #e24147;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}
+
+.show{
+    height: 100%;
+}
