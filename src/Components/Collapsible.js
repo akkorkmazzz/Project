@@ -39,6 +39,7 @@ function Collapsible(props) {
                                     <select class="selectpicker1">
                                         <option>select</option>
                                         <option>item1</option>
+                                        <option>item2</option>
                                     </select>
                                 </div>
                             </div>
